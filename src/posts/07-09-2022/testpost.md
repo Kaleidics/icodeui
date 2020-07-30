@@ -1,5 +1,5 @@
 ---
-title: 'test post'
+title: 'test post22'
 date: '2020-07-29'
 thumbnail: './testimage.jpg'
 ---

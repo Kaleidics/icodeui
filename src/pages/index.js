@@ -1,7 +1,8 @@
 import React from "react"
 import { Link, graphql, useStaticQuery } from "gatsby"
 
-import Layout from '../components/layout'
+import Layout from "../components/layout"
+import Card from "../components/card"
 
 import "../sass/main.scss"
 
@@ -14,6 +15,13 @@ const IndexPage = () => {
             frontmatter {
               title
               date
+              thumbnail {
+                childImageSharp {
+                  fluid {
+                    src
+                  }
+                }
+              }
             }
             fields {
               slug
@@ -29,10 +37,12 @@ const IndexPage = () => {
       <section>
         {data.allMarkdownRemark.edges.map(edge => {
           return (
-            <Link to={`/${edge.node.fields.slug}`}>
-              <h2>{edge.node.frontmatter.title}</h2>
-            
-            </Link>
+            <Card
+              linkPath={`/${edge.node.fields.slug}`}
+              heading={edge.node.frontmatter.title}
+              date={edge.node.frontmatter.date}
+              image={edge.node.frontmatter.thumbnail.childImageSharp.fluid.src}
+            />
           )
         })}
       </section>
