@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "gatsby"
 
 import github from "../assets/github.png"
 import linkedin from "../assets/linkedin.png"
@@ -7,7 +8,11 @@ import mail from "../assets/mail.png"
 const Footer = () => {
   return (
     <footer className="footer">
-      <small className="footer__copyright">&copy;icodeUI 2020</small>
+      <small>
+        <Link className="footer__copyright" to="/">
+          &copy;icodeUI 2020
+        </Link>
+      </small>
       <nav className="footer__nav">
         <a
           className="footer__link"

@@ -15,10 +15,12 @@ const Header = () => {
   return (
     <header className="header">
       <div className="header__inner">
-        <div className="header__icon"></div>
-        <h1 className="header__heading"> Code UI</h1>
+        <h1>
+          <Link to="/" className="header__heading">
+            <div className="header__icon"></div>Code UI
+          </Link>
+        </h1>
       </div>
-      
     </header>
   )
 }

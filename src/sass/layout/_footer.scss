@@ -9,13 +9,15 @@
   position: fixed;
   bottom: 0;
   height: 48px;
+  background: $white-1;
 
   &__copyright {
     display: inline-flex;
-    font-size: 12px;
+    font-size: 14px;
     padding: 3px;
     color: $white-4;
     margin: 0 26px;
+    text-decoration: none;
   }
 
   &__nav {

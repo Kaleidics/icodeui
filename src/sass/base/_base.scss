@@ -4,7 +4,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-
   width: 100%;
 }
 
@@ -22,9 +21,8 @@ body {
 section {
   width: 100%;
   max-width: 1920px;
-  padding: 0 26px;
-  margin: 20px auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  margin: 20px auto;
 }

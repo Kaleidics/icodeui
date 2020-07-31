@@ -1,0 +1,20 @@
+.hero {
+  width: 90%;
+  max-width: 1920px;
+  margin: 40px auto;
+  padding: 40px 20px;
+  border-radius: 3px;
+  background: $radial-blue;
+
+  &__heading {
+    color: $white-1;
+    font-size: 3rem;
+    text-align: center;
+  }
+
+  &__description {
+    color: $white-1;
+    font-size: 1.6rem;
+    text-align: center;
+  }
+}

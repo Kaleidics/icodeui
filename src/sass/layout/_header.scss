@@ -4,17 +4,22 @@
   display: flex;
   justify-content: space-between;
   background: $white-1;
-  padding: 0 26px;
   box-shadow: $box-shadow-1;
   
   &__inner {
     display: flex;
     align-items: center;
+    width: 90%;
+    margin: 0 auto;
   }
 
   &__heading {
-    display: inline-block;
+    display: inline-flex;
+    align-items: center;
     font-size: 18px;
+    text-decoration: none;
+    color: $color-primary;
+    width: 100px;
   }
 
   &__icon {
@@ -24,7 +29,7 @@
     border-radius: 50%;
     padding: 8px;
     margin-right: 5px;
-    background: $color-secondary;
+    background: $radial-blue;
     
   }
 
