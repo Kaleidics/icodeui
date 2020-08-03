@@ -6,8 +6,10 @@ $white-2: #fcfcff;
 $white-3: #ebebf2;
 $white-4: #bbb9d1;
 $white-5: #eee;
+$ghostwhite: #F8F8ff;
 
 $box-shadow-1: 0 10px 20px -7px rgba(160, 44, 219, 0.07);
+$box-shadow-2: 0 10px 20px -7px rgba(160, 44, 219, 0.3);
 
 $radial-blue: radial-gradient(
   circle at top left,
@@ -27,3 +29,5 @@ $radial-blue: radial-gradient(
   #fd6a60 90%,
   #fd6a60 100%
 );
+
+$linear-blue: linear-gradient(to bottom right, #43cbff, #50B0FF);

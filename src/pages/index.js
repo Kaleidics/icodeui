@@ -15,6 +15,7 @@ const IndexPage = () => {
             frontmatter {
               title
               date
+              dateDelimited
               thumbnail {
                 childImageSharp {
                   fluid {
@@ -38,7 +39,7 @@ const IndexPage = () => {
         {data.allMarkdownRemark.edges.map(edge => {
           return (
             <Card
-              linkPath={`/${edge.node.fields.slug}`}
+              linkPath={`/${edge.node.frontmatter.dateDelimited}/${edge.node.fields.slug}`}
               heading={edge.node.frontmatter.title}
               date={edge.node.frontmatter.date}
               image={edge.node.frontmatter.thumbnail.childImageSharp.fluid.src}

@@ -22,6 +22,10 @@ module.exports.createPages = async ({ graphql, actions }) => {
       allMarkdownRemark {
         edges {
           node {
+            frontmatter {
+              date
+              dateDelimited
+            }
             fields {
               slug
             }
@@ -34,7 +38,7 @@ module.exports.createPages = async ({ graphql, actions }) => {
   res.data.allMarkdownRemark.edges.forEach((edge) => {
     createPage({
       component: blogTemplate,
-      path: `/${edge.node.fields.slug}`,
+      path: `/${edge.node.frontmatter.dateDelimited}/${edge.node.fields.slug}`,
       context: {
         slug: edge.node.fields.slug
       }

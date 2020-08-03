@@ -27,13 +27,3 @@ const Header = () => {
 
 export default Header
 
-
-{/* <p>
-        <Link to="/about">About</Link>
-      </p>
-      <p>
-        <Link to="/blog">Blog</Link>
-      </p>
-      <p>
-        <Link to="/contact">Contact</Link>
-      </p> */}

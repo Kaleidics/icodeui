@@ -1,0 +1,20 @@
+.btn {
+  text-decoration: none;
+  color: $white-1;
+  border-radius: 2.5rem;
+  background: $linear-blue;
+  padding: 10px 20px;
+  display: inline-flex;
+  max-width: 160px;
+  text-align: center;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+  box-shadow: $box-shadow-2;
+  position: relative;
+  transition: all 0.2s linear;
+
+  &:hover {
+    transform: scale(1.05);
+  }
+}
