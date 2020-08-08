@@ -8,11 +8,9 @@ import mail from "../assets/mail.png"
 const Footer = () => {
   return (
     <footer className="footer">
-      <small>
         <Link className="footer__copyright" to="/">
           &copy;icodeUI 2020
         </Link>
-      </small>
       <nav className="footer__nav">
         <a
           className="footer__link"
