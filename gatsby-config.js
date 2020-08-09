@@ -1,7 +1,7 @@
 
 module.exports = {
   siteMetadata: {
-    title: "Boilerplate Blog",
+    title: "iCodeUI",
     author: "Eddie Chu",
   },
   plugins: [

@@ -8,11 +8,9 @@ import Footer from "../components/footer"
 const Layout = props => {
   return (
     <div className="layout">
-      <Helmet>
-        <meta charSet="utf-8" />
-        <title>iCodeUI</title>
-        meta=
-        {[
+      <Helmet
+        title="iCodeUI"
+        meta={[
           {
             name: "description",
             content:
@@ -24,6 +22,7 @@ const Layout = props => {
               "HTML, CSS, UI, Coding, Eddie Chu, Eddie, Chu, Web Development, Design",
           },
         ]}
+      >
         <html lang="en" />
       </Helmet>
       <Header />
