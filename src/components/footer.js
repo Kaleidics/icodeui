@@ -1,16 +1,16 @@
 import React from "react"
 import { Link } from "gatsby"
 
-import github from "../assets/github.png"
-import linkedin from "../assets/linkedin.png"
-import mail from "../assets/mail.png"
+import github from "../assets/githubmin.png"
+import linkedin from "../assets/linkedinmin.png"
+import mail from "../assets/mailmin.png"
 
 const Footer = () => {
   return (
     <footer className="footer">
-        <Link className="footer__copyright" to="/">
-          &copy;icodeUI 2020
-        </Link>
+      <Link className="footer__copyright" to="/">
+        &copy;icodeUI 2020
+      </Link>
       <nav className="footer__nav">
         <a
           className="footer__link"
