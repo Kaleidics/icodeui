@@ -1,11 +1,31 @@
 import React from "react"
-import Header from '../components/header'
-import Hero from '../components/hero'
-import Footer from '../components/footer'
+import { Helmet } from "react-helmet"
 
-const Layout = (props) => {
-  return(
+import Header from "../components/header"
+import Hero from "../components/hero"
+import Footer from "../components/footer"
+
+const Layout = props => {
+  return (
     <div className="layout">
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>iCodeUI</title>
+        meta=
+        {[
+          {
+            name: "description",
+            content:
+              "A semi-daily practice in the art of coding randomly interesting pieces of UI.",
+          },
+          {
+            name: "keywords",
+            content:
+              "HTML, CSS, UI, Coding, Eddie Chu, Eddie, Chu, Web Development, Design",
+          },
+        ]}
+        <html lang="en" />
+      </Helmet>
       <Header />
       <Hero />
       {props.children}

@@ -5,6 +5,7 @@ module.exports = {
     author: "Eddie Chu",
   },
   plugins: [
+    "gatsby-plugin-react-helmet",
     "gatsby-plugin-sass",
     `gatsby-transformer-sharp`,
     {
@@ -33,12 +34,9 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
-        fonts: [
-          `Roboto\:300,400,700`,
-          `Lato\:300,400,700`
-        ],
+        fonts: [`Roboto\:300,400,700`, `Lato\:300,400,700`],
         display: "swap",
       },
-    }
+    },
   ],
 }
