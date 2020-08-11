@@ -62,6 +62,7 @@
     justify-content: center;
     width: 100%;
     min-height: 600px;
+    padding: 20px;
     background-size: 10px 10px;
     background-image: linear-gradient(to right, lighten($white-4, 10%) 1px, transparent 1px),
       linear-gradient(to bottom, lighten($white-4, 10%) 1px, transparent 1px);
