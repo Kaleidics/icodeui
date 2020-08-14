@@ -9,7 +9,7 @@ import "../sass/main.scss"
 const IndexPage = () => {
   const data = useStaticQuery(graphql`
     query {
-      allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
+      allMarkdownRemark(sort: { fields: [frontmatter___postCount], order: ASC }) {
         edges {
           node {
             frontmatter {

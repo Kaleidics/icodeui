@@ -5,6 +5,7 @@ date: "10 August 2020"
 thumbnail: "./shoethumbnail.png"
 summary: What are thooose??? Shrink the window...thoughts on the mobile styling?
 tags: card,component,ecommerce
+postCount: 2
 ---
 
   <div class="shoe">
