@@ -14,7 +14,7 @@ const Layout = props => {
           {
             name: "description",
             content:
-              "A semi-daily practice in the art of coding randomly interesting pieces of UI.",
+              "A semi-daily practice in the art of coding random pieces of UI.",
           },
           {
             name: "keywords",
