@@ -4,7 +4,7 @@ dateDelimited: "03-September-2020"
 date: "03 September 2020"
 thumbnail: "./progressbar.png"
 summary: It is a line with numbers?
-tags: inputs,form
+tags: navigation, links
 postCount: 6
 ---
 
